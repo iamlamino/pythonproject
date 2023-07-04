@@ -184,7 +184,7 @@ def facto():
         return entier + facto(entier-1)
 # Exercice  14
 import random
-def deplayWordRandomly(tab):
+def displayWordRandomly(tab):
     sentence = ''
     for j in (tab):
         if not j in sentence:
